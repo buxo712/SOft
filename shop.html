@@ -1,0 +1,313 @@
+<body>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Energy Drinks & Clean Juice Store</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+
+        .hero-section {
+            background-color: #cc0000;
+            color: white;
+            padding: 50px 0;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .hero-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .hero-text {
+            flex: 1;
+            padding-right: 50px;
+        }
+
+        .hero-images img {
+            height: 400px;
+        }
+
+        .category-cards {
+            display: flex;
+            justify-content: space-between;
+            max-width: 1200px;
+            margin: 30px auto;
+            gap: 20px;
+        }
+
+        .category-card {
+            flex: 1;
+            position: relative;
+            height: 200px;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        .category-card img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .card-content {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            color: white;
+        }
+
+        .shop-now-btn {
+            background-color: #ffffff;
+            color: #000;
+            padding: 10px 20px;
+            border-radius: 25px;
+            text-decoration: none;
+            display: inline-block;
+            margin-top: 10px;
+        }
+
+        .featured-products {
+            max-width: 1200px;
+            margin: 50px auto;
+        }
+
+        .products-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 20px;
+        }
+
+        .product-card {
+            text-align: center;
+            padding: 20px;
+            border: 1px solid #eee;
+            border-radius: 10px;
+        }
+
+        .product-card img {
+            width: 150px;
+            height: auto;
+        }
+
+        .product-card h3 {
+            font-size: 16px;
+            margin: 10px 0;
+        }
+
+        .price {
+            font-weight: bold;
+            color: #cc0000;
+        }
+
+        .clean-juice-section {
+            background-color: #f0f8f0;
+            padding: 50px 0;
+        }
+
+        .juice-menu {
+            max-width: 1200px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        .juice-options {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 30px;
+        }
+
+        .juice-item {
+            text-align: center;
+        }
+
+        .juice-item img {
+            width: 100px;
+            height: auto;
+        }
+    </style>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./css/hero.css">
+</head>
+<body>
+    
+    <header class="header" id="header">
+        <nav class="nav container">
+           <a href="#" class="nav__logo">MUHIMA Soft Drinks</a>
+           <div class="nav__menu" id="nav-menu">
+              <ul class="nav__list">
+                 <li class="nav__item">
+                    <a href="./index.html" class="nav__link">
+                       <i class="ri-arrow-right-up-line"></i>
+                       <span>Home</span>
+                    </a>
+                 </li>
+                 <li class="nav__item">
+                    <a href="./about.html" class="nav__link">
+                       <i class="ri-arrow-right-up-line"></i>
+                       <span>About Us</span>
+                    </a>
+                 </li>
+                 <li class="nav__item">
+                    <a href="./shop.html" class="nav__link">
+                       <i class="ri-arrow-right-up-line"></i>
+                       <span>Shop</span>
+                    </a>
+                 </li>
+                 <li class="nav__item">
+                    <a href="./Softdrink.html" class="nav__link">
+                       <i class="ri-arrow-right-up-line"></i>
+                       <span>Offers</span>
+                    </a>
+                 </li>
+                 <li class="nav__item">
+                    <a href="./contact.html" class="nav__link">
+                       <i class="ri-arrow-right-up-line"></i>
+                       <span>Contact</span>
+                    </a>
+                 </li>
+              </ul>
+              <div class="nav__close" id="nav-close">
+                 <i class="ri-close-large-line"></i>
+              </div>
+           </div>
+           <div class="nav__toggle" id="nav-toggle">
+              <i class="ri-menu-line"></i>
+           </div>
+        </nav>
+    </header>
+
+    <div class="product__content grid">
+
+        <article class="popular__card product__card mix tesla">
+            <div class="car-img">
+                <img src="./images/fanta.webp" alt="" />
+            </div>
+        </article>
+        <article class="popular__card product__card mix tesla">
+            <div class="car-img">
+                <img src="./images/Sprite.webp" alt="" />
+            </div>
+        </article>
+        <article class="popular__card product__card mix tesla">
+            <div class="car-img">
+                <img src="./images/Cocacola.webp" alt="" />
+            </div>
+        </article>
+
+        
+    </div>
+
+    <li class="nav__item">
+        <a href="./contact2.html" class="nav__link">
+           <i class="ri-arrow-right-up-line"></i>
+           <span>Contact</span>
+        </a>
+     </li>
+
+
+    <section class="hero-section">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1>TAKE IT TO THE NEXT LEVEL</h1>
+                <h2>ENERGY DRINK</h2>
+                <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <a href="#" class="shop-now-btn">SHOP NOW</a>
+            </div>
+            <div class="hero-images">
+                <img src="./images/redbull.PNG" alt="Energy Drinks">
+            </div>
+        </div>
+    </section>
+
+    
+    <div class="category-cards">
+        <div class="category-card">
+            <img src="./images/fruit7.PNG" alt="Organic">
+            <div class="card-content">
+                <h2>Drinks For ORGANIC</h2>
+                <a href="#" class="shop-now-btn">SHOP NOW</a>
+            </div>
+        </div>
+        <div class="category-card">
+            <img src="./images/coca-cola-6090176_1280.jpg" alt="Sports">
+            <div class="card-content">
+                <h2>Drinks For SPORTS</h2>
+                <a href="#" class="shop-now-btn">SHOP NOW</a>
+            </div>
+        </div>
+        <div class="category-card">
+            <img src="./images/pepsi-5152332_1280.jpg" alt="Active">
+            <div class="card-content">
+                <h2>Drinks For ACTIVE</h2>
+                <a href="#" class="shop-now-btn">SHOP NOW</a>
+            </div>
+        </div>
+    </div>
+    <section class="featured-products">
+        <h2>FEATURED PRODUCTS</h2>
+        <div class="products-grid">
+            <div class="product-card">
+                <img src="./images/fruit9.PNG" alt="Rockstar">
+                <h3>Rockstar Guava Punched Energy Drink</h3>
+                <p class="price">$19.99</p>
+            </div>
+            <div class="product-card">
+                <img src="./images/monsterenergy.PNG" alt="Boost">
+                <h3>Boost Energy Drink 12x1 Ltr</h3>
+                <p class="price">$12.00</p>
+            </div>
+            
+        </div>
+    </section>
+    <section class="clean-juice-section">
+        <div class="juice-menu">
+            <h1>Menu suited to your expectations</h1>
+            <div class="juice-options">
+                <div class="juice-item">
+                    <img src="./images/fruit6.PNG" alt="Juices">
+                    <h3>Juices</h3>
+                </div>
+                <div class="juice-item">
+                    <img src="./images/fruit7.PNG" alt="Cold pressed bottles">
+                    <h3>Cold pressed bottles</h3>
+                </div>
+                <div class="juice-item">
+                    <img src="./images/fanta.PNG" alt="The cleanse">
+                    <h3>The cleanse 330 ml</h3>
+                </div>
+                <div class="juice-item">
+                    <img src="./images/pepsi1.PNG" alt="Protein smoothies">
+                    <h3>Protein smoothies</h3>
+                </div>
+                <div class="juice-item">
+                    <img src="./images/cocaZero.PNG" alt="Smoothies">
+                    <h3>Smoothies</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        function addToCart(productId) {
+            console.log(Product ${productId} added to cart);
+        }
+        document.addEventListener('DOMContentLoaded', function() {
+        });
+    </script>
+</body>
+</html>
+</body>
+</html>

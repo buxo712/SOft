@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background: #f5f5f5;
+}
+
+.drink-section {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 50px 20px;
+}
+
+.content-wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.drink-info {
+    flex: 1;
+}
+
+.drink-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.drink-image img {
+    max-width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+.drink-image img:hover {
+    transform: scale(1.05);
+}
+
+h2 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.explore-btn {
+    padding: 12px 30px;
+    border: none;
+    border-radius: 25px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.explore-btn:hover {
+    transform: translateY(-3px);
+}
+
+
+.monster {
+    background: #000;
+    color: #fff;
+}
+
+.monster .explore-btn {
+    background: #97ff1a;
+    color: #000;
+}
+
+.fanta {
+    background: #ff6600;
+    color: #fff;
+}
+
+.fanta .explore-btn {
+    background: #fff;
+    color: #ff6600;
+}
+
+.wiki {
+    background: #ff4081;
+    color: #fff;
+}
+
+.wiki .explore-btn {
+    background: #fff;
+    color: #ff4081;
+}
+
+.redbull {
+    background: #001e50;
+    color: #fff;
+}
+
+.redbull .explore-btn {
+    background: #cd0000;
+    color: #fff;
+}
+
+.coca-cola {
+    background: #000;
+    color: #fff;
+}
+
+.coca-cola .explore-btn {
+    background: #ff0000;
+    color: #fff;
+}
+
+.pepsi {
+    background: black;
+    color:white ;
+}
+
+.pepsi .explore-btn {
+    background: #003399;
+    color: #fff;
+}
+
+@media (max-width: 768px) {
+    .content-wrapper {
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+
+    .drink-image img {
+        max-width: 80%;
+    }
+}

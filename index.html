@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/hero.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.min.css">    
+<body>
+
+    <header class="header" id="header">
+        <nav class="nav container">
+           <a href="#" class="nav__logo">MUHIMA Soft Drinks</a>
+           <div class="nav__menu" id="nav-menu">
+              <ul class="nav__list">
+                 <li class="nav__item">
+                    <a href="./index.html" class="nav__link">
+                       <i class="ri-arrow-right-up-line"></i>
+                       <span>Home</span>
+                    </a>
+                 </li>
+                 <li class="nav__item">
+                    <a href="./about.html" class="nav__link">
+                       <i class="ri-arrow-right-up-line"></i>
+                       <span>About Us</span>
+                    </a>
+                 </li>
+                 <li class="nav__item">
+                    <a href="./shop.html" class="nav__link">
+                       <i class="ri-arrow-right-up-line"></i>
+                       <span>Shop</span>
+                    </a>
+                 </li>
+                 <li class="nav__item">
+                    <a href="./Softdrink.html" class="nav__link">
+                       <i class="ri-arrow-right-up-line"></i>
+                       <span>Offers</span>
+                    </a>
+                 </li>
+                 <li class="nav__item">
+                    <a href="./contact2.html" class="nav__link">
+                       <i class="ri-arrow-right-up-line"></i>
+                       <span>Contact</span>
+                    </a>
+                 </li>
+              </ul>
+              <div class="nav__close" id="nav-close">
+                 <i class="ri-close-large-line"></i>
+              </div>
+           </div>
+           <div class="nav__toggle" id="nav-toggle">
+              <i class="ri-menu-line"></i>
+           </div>
+        </nav>
+    </header>
+    
+    <main>
+        <div class="carousel">
+            <div class="list">
+                <div class="item active" style="--background: #EA3D41">
+                    <div class="content">Strawberry</div>
+                    <img src="./images/fruit_strawberry.png" class="fruit">
+                </div>
+                <div class="item" style="--background: #2D5643">
+                    <div class="content">avocado</div>
+                    <img src="./images/fruit_avocado.png" class="fruit">
+                </div>
+                <div class="item hidden" style="--background: #E7A043">
+                    <div class="content">orange</div>
+                    <img src="./images/fruit_orange.png" class="fruit">
+                </div>
+            </div>
+            <div class="leaves"></div>
+            <div class="mockup"></div>
+            <div class="shadow"></div>
+            <div class="arrow">
+                <button id="prev"></button>
+                <button id="next">></button>
+            </div>
+        </div>
+    </main>
+    <footer></footer>
+    
+    <script src="./js/hero.js"></script>
+    
+</body>
+</html>
