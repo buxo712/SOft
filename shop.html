@@ -27,15 +27,6 @@
 
   <style>
 
-
-.products-grid {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr); /* exactly 4 equal columns */
-  gap: 20px;
-  width: 100%; /* full width container */
-  padding: 10px 0;
-}
-
     body {
       font-family: Arial, sans-serif;
       padding: 20px;
@@ -66,6 +57,30 @@
     .rating {
       color: #ffa500; /* orange stars */
     }
+
+   .products-grid {
+    display: grid;
+     grid-template-columns: repeat(4, 1fr); /* exactly 4 equal columns */
+     gap: 20px;
+     width: 100%; /* full width container */
+      padding: 10px 0;
+}
+
+@media (max-width: 768px) {
+  .products-grid {
+    grid-template-columns: repeat(2, 1fr); /* 2 columns on tablet */
+  }
+}
+
+@media (max-width: 480px) {
+  .products-grid {
+    grid-template-columns: 1fr; /* 1 column on mobile */
+  }
+}
+
+
+
+
   </style>
 </head>
 <body>
