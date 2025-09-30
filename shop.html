@@ -24,24 +24,48 @@
       <div class="nav__toggle" id="nav-toggle">&#9776;</div>
     </nav>
   </header>
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Picture Shop</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+    }
+    .grid-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+      gap: 20px;
+    }
+    .product-item {
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      padding: 10px;
+      text-align: center;
+      box-shadow: 1px 1px 5px #aaa;
+    }
+    .product-item img {
+      max-width: 100%;
+      height: 120px;
+      object-fit: cover;
+      border-radius: 4px;
+    }
+    .price {
+      color: green;
+      font-weight: bold;
+      margin: 8px 0;
+    }
+    .rating {
+      color: #ffa500; /* orange stars */
+    }
+  </style>
+</head>
+<body>
 
-  <section class="featured-products">
-  <h2>FEATURED PRODUCTS</h2>
-  <div class="products-grid">
-    <div class="product-card">
-      <img src="./images/fruit9.PNG" alt="Rockstar">
-      <h3>Rockstar Guava Punched Energy Drink</h3>
-      <p class="price">$19.99</p>
-      <div class="rating">⭐⭐⭐⭐☆</div>
-    </div>
-    <div class="product-card">
-      <img src="./images/monsterenergy.PNG" alt="Boost">
-      <h3>Boost Energy Drink 12x1 Ltr</h3>
-      <p class="price">$12.00</p>
-      <div class="rating">⭐⭐⭐⭐⭐</div>
-    </div>
+<h2>Picture Shop</h2>
 
-    <div class="grid-container">
+<div class="grid-container">
   <div class="product-item">
     <img src="https://via.placeholder.com/180x120?text=Pic1" alt="Picture 1">
     <div class="price">$25.00</div>
@@ -62,6 +86,37 @@
     <div class="price">$22.50</div>
     <div class="rating">⭐⭐⭐⭐☆</div>
   </div>
-    
+  <div class="product-item">
+    <img src="https://via.placeholder.com/180x120?text=Pic5" alt="Picture 5">
+    <div class="price">$40.00</div>
+    <div class="rating">⭐⭐⭐⭐⭐</div>
   </div>
-</section>
+  <div class="product-item">
+    <img src="https://via.placeholder.com/180x120?text=Pic6" alt="Picture 6">
+    <div class="price">$19.99</div>
+    <div class="rating">⭐⭐⭐☆☆</div>
+  </div>
+  <div class="product-item">
+    <img src="https://via.placeholder.com/180x120?text=Pic7" alt="Picture 7">
+    <div class="price">$21.00</div>
+    <div class="rating">⭐⭐⭐⭐☆</div>
+  </div>
+  <div class="product-item">
+    <img src="https://via.placeholder.com/180x120?text=Pic8" alt="Picture 8">
+    <div class="price">$29.99</div>
+    <div class="rating">⭐⭐⭐⭐⭐</div>
+  </div>
+  <div class="product-item">
+    <img src="https://via.placeholder.com/180x120?text=Pic9" alt="Picture 9">
+    <div class="price">$16.00</div>
+    <div class="rating">⭐⭐☆☆☆</div>
+  </div>
+  <div class="product-item">
+    <img src="https://via.placeholder.com/180x120?text=Pic10" alt="Picture 10">
+    <div class="price">$35.00</div>
+    <div class="rating">⭐⭐⭐⭐⭐</div>
+  </div>
+</div>
+
+</body>
+</html>
