@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Picture Shop</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+    }
+    .grid-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+      gap: 20px;
+    }
+    .product-item {
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      padding: 10px;
+      text-align: center;
+      box-shadow: 1px 1px 5px #aaa;
+    }
+    .product-item img {
+      max-width: 100%;
+      height: 120px;
+      object-fit: cover;
+      border-radius: 4px;
+    }
+    .price {
+      color: green;
+      font-weight: bold;
+      margin: 8px 0;
+    }
+    .rating {
+      color: #ffa500; /* orange stars */
+    }
+  </style>
+</head>
+<body>
+
+<h2>Picture Shop</h2>
+
+<div class="grid-container">
+  <div class="product-item">
+    <img src="https://via.placeholder.com/180x120?text=Pic1" alt="Picture 1">
+    <div class="price">$25.00</div>
+    <div class="rating">⭐⭐⭐⭐☆</div>
+  </div>
+  <div class="product-item">
+    <img src="https://via.placeholder.com/180x120?text=Pic2" alt="Picture 2">
+    <div class="price">$30.00</div>
+    <div class="rating">⭐⭐⭐⭐⭐</div>
+  </div>
+  <div class="product-item">
+    <img src="https://via.placeholder.com/180x120?text=Pic3" alt="Picture 3">
+    <div class="price">$18.00</div>
+    <div class="rating">⭐⭐⭐☆☆</div>
+  </div>
+  <div class="product-item">
+    <img src="https://via.placeholder.com/180x120?text=Pic4" alt="Picture 4">
+    <div class="price">$22.50</div>
+    <div class="rating">⭐⭐⭐⭐☆</div>
+  </div>
+  <div class="product-item">
+    <img src="https://via.placeholder.com/180x120?text=Pic5" alt="Picture 5">
+    <div class="price">$40.00</div>
+    <div class="rating">⭐⭐⭐⭐⭐</div>
+  </div>
+  <div class="product-item">
+    <img src="https://via.placeholder.com/180x120?text=Pic6" alt="Picture 6">
+    <div class="price">$19.99</div>
+    <div class="rating">⭐⭐⭐☆☆</div>
+  </div>
+  <div class="product-item">
+    <img src="https://via.placeholder.com/180x120?text=Pic7" alt="Picture 7">
+    <div class="price">$21.00</div>
+    <div class="rating">⭐⭐⭐⭐☆</div>
+  </div>
+  <div class="product-item">
+    <img src="https://via.placeholder.com/180x120?text=Pic8" alt="Picture 8">
+    <div class="price">$29.99</div>
+    <div class="rating">⭐⭐⭐⭐⭐</div>
+  </div>
+  <div class="product-item">
+    <img src="https://via.placeholder.com/180x120?text=Pic9" alt="Picture 9">
+    <div class="price">$16.00</div>
+    <div class="rating">⭐⭐☆☆☆</div>
+  </div>
+  <div class="product-item">
+    <img src="https://via.placeholder.com/180x120?text=Pic10" alt="Picture 10">
+    <div class="price">$35.00</div>
+    <div class="rating">⭐⭐⭐⭐⭐</div>
+  </div>
+</div>
+
+</body>
+</html>

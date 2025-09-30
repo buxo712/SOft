@@ -1816,3 +1816,176 @@ nav {
     background: var(--first-color-alt);
   }
 
+
+
+  /* Reset + global */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background: #fafafa;
+}
+
+/* Navbar */
+.header {
+  background: #111;
+  padding: 15px 0;
+}
+.nav {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav__logo {
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+}
+.nav__list {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+.nav__link {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+.nav__link:hover {
+  color: #cc0000;
+}
+
+/* Hero */
+.hero-section {
+  background: linear-gradient(135deg, #cc0000, #ff4444);
+  color: white;
+  padding: 80px 0;
+}
+.hero-content {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.hero-text h1 {
+  font-size: 48px;
+  margin-bottom: 10px;
+}
+.hero-text h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+.hero-text p {
+  margin-bottom: 20px;
+  max-width: 400px;
+}
+.hero-images img {
+  max-width: 400px;
+  border-radius: 10px;
+}
+
+/* Buttons */
+.shop-now-btn {
+  background: white;
+  color: #cc0000;
+  padding: 12px 25px;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+.shop-now-btn:hover {
+  background: #000;
+  color: #fff;
+}
+
+/* Categories */
+.category-cards {
+  max-width: 1200px;
+  margin: 40px auto;
+  display: flex;
+  gap: 20px;
+}
+.category-card {
+  flex: 1;
+  position: relative;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
+.category-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+.card-content {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0,0,0,0.4);
+  color: white;
+  text-align: center;
+}
+
+/* Featured Products */
+.featured-products {
+  max-width: 1200px;
+  margin: 50px auto;
+  text-align: center;
+}
+.products-grid {
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+.product-card {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+.product-card img {
+  width: 100px;
+  margin-bottom: 15px;
+}
+.price {
+  font-weight: bold;
+  color: #cc0000;
+}
+
+/* Juice section */
+.clean-juice-section {
+  background: #f5fff5;
+  padding: 50px 0;
+}
+.juice-menu h1 {
+  font-size: 28px;
+}
+.juice-options {
+  margin-top: 30px;
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.juice-item {
+  text-align: center;
+}
+.juice-item img {
+  width: 80px;
+  margin-bottom: 10px;
+}
+
